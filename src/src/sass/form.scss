@@ -1,0 +1,37 @@
+//form
+.form {
+	margin: 0;
+	padding: 0;
+
+	font-size: 16px;
+	line-height: 18px;
+}
+.form__fieldset {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0;
+
+	border:none;
+
+	text-transform: uppercase;
+}
+
+.form__btn {
+	font-size: 16px;
+	line-height: 20px;
+
+	margin-bottom: 20px;
+}
+
+.form__mark {
+	font-family: Arial,sans-serif;
+	font-size: 14px;
+	color:#444444;
+	text-align: center;
+
+	display:block;
+	padding-bottom: 50px;
+}

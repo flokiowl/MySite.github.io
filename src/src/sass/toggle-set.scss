@@ -1,0 +1,47 @@
+//toggle-set
+
+.toggle-set {
+	padding-bottom:50px;
+}
+
+.toggle-set__item {
+	position: relative;
+	
+	line-height: 30px;
+	padding-left: 40px;
+	margin-bottom:15px;
+
+	cursor: pointer;
+}
+
+.toggle-set__item:focus {
+	color:#663d15;
+}
+
+.toggle-set__item input[type="radio"] + .toggle-set__radio {
+	position: absolute;
+	top:0;
+	left:0;
+
+	width: 30px;
+	height: 30px;
+
+	border:1px solid #cdcdcd;
+	border-radius: 50%;
+}
+
+.toggle-set__item input[type="radio"]:checked + .toggle-set__radio {
+	&::before,
+	&::after {
+		content:"";
+		position: absolute;
+		top:8px;
+		left: 8px;
+
+		width:12px;
+		height: 12px;
+		border-radius:50%;
+
+		background-color: #68b738;
+	}
+}

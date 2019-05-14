@@ -1,0 +1,39 @@
+.about-me {
+	width:100%;
+	height:100%;
+	padding-top:80px;
+	padding-left: 50px;
+	background-color: #fff;
+	color:#151515;
+
+	border-bottom:1px solid rgba(39,39,39,.5);
+}
+.about-me__title {
+	@include title;
+}
+.about-me__wrapper {
+	// padding:30px;
+	padding-top:0;
+}
+.about-me__photo {
+	height:250px;
+	margin-right:20px;
+	margin-bottom: 20px;
+	z-index: 1;
+	float:left;
+}
+.about-me__skill {
+	display:flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+	img {
+		width:100px;
+		height:100px;
+		&:hover {
+			opacity:0.5;
+		}
+	}
+}
+.about-me__skill-description {
+	margin-left: 50px;
+}

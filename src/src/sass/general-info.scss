@@ -1,0 +1,36 @@
+//general-info
+
+.general-info__label {
+	padding-bottom:40px;
+}
+
+.input-text {
+	padding:5px 5px;
+	border:1px solid rgba(68,68,68,0.4);
+	border-opacity: 0.2;
+	&:focus {
+		outline:1px solid blue;
+	}
+}
+
+.input-text[placeholder] {
+	text-transform: uppercase;
+	font-family: inherit;
+	opacity:0.5;
+	&:focus {
+		opacity:1;
+		transition:opacity 0.8s ease;
+	}
+}
+
+.general-info__name-area {
+	width:238px;
+}
+
+.general-info__weight-area {
+	width:216px;
+}
+
+.general-info__age-area {
+	width:183px;
+}

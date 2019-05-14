@@ -1,0 +1,23 @@
+.header {
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+
+	width:100%;
+	min-height:100vh;
+
+	font-family: inherit;
+	color:#fff;
+	background-color:$dark;
+}
+
+.header__logo {
+	width:200px;
+	margin: 15px 0 15px 15px;
+}
+.header__title {
+	font-size: 42px;
+	margin-top: -80px;
+	margin-bottom: 20px;
+}
